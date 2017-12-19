@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync/atomic"
 
+	"cloud.google.com/go/pubsub"
 	"golang.org/x/net/context"
-	"google.golang.org/cloud/pubsub"
 
 	"github.com/tylertreat/Flotilla/flotilla-server/daemon/broker"
 )
